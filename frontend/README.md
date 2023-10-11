@@ -1,35 +1,48 @@
-# vue
+# Modernize-nuxtjs-free
+Free Nuxt 3 Admin Template with vuetify 3 + Typescript
+<img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-free-vuetify-dashboard.png" alt="Free Nuxt 3 Admin Template with vuetify 3 + Typescript"/>
+# <a href="https://modernize-nuxtjs-free.netlify.app">Live Demo </a>
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+# Nuxt 3 Starter
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
+> 💚 A Better Nuxt 3 starter template
 
-## Type Support for `.vue` Imports in TS
+## Use the Template
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates.
+### Clone to local
 
-However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can run `Volar: Switch TS Plugin on/off` from VSCode command palette.
+```bash
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+$>    💿  Install dependencies with `npm install` or `yarn install`
+$>
+$>    🚀  Start development server with `npm run dev` or `yarn dev`
 ```
 
-### Compile and Hot-Reload for Development
+## Setup
 
-```sh
-npm run dev
+### Installation
+
+Make sure to install the dependencies
+
+```bash
+yarn install
 ```
 
-### Type-Check, Compile and Minify for Production
+### Development
 
-```sh
-npm run build
+Start the development server on http://localhost:3088
+
+```bash
+yarn dev
 ```
+
+### Production
+
+Build the application for production:
+
+```bash
+yarn build
+```
+
+
